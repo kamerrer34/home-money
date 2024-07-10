@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "id": "6b3a",
+      "email": "fidem0908@yandex.ru",
+      "password": "12345678",
+      "name": "Денис"
+    },
+    {
+      "id": "4f32",
+      "email": "Aleksandr-Slomov@yandex.ru",
+      "password": "dobrodel50",
+      "name": "Александр"
+    }
+  ],
+  "bill": {
+    "value": 98900,
+    "currency": "RUB"
+  },
+  "currency": {
+    "base": "RUB",
+    "date": "2024-07-08",
+    "rates": {
+      "EUR": 0.015343,
+      "USD": 0.017183
+    }
+  },
+  "categories": [
+    {
+      "id": "1",
+      "name": "Дом",
+      "capacity": 15000
+    },
+    {
+      "id": "2",
+      "name": "Еда",
+      "capacity": 10000
+    },
+    {
+      "id": "3",
+      "name": "Машина",
+      "capacity": 7000
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "type": "income",
+      "amount": 1250,
+      "category": "2",
+      "date": "02.07.2024 19:49",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": "2",
+      "type": "outcome",
+      "amount": 1300,
+      "category": "1",
+      "date": "03.07.2024 19:49",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": "2",
+      "date": "04.07.2024 14:00",
+      "id": "3",
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": "2",
+      "date": "06.07.2024 14:00",
+      "id": "4",
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": "3",
+      "date": "08.07.2024 14:01",
+      "id": "5",
+      "description": "Заправка + проход ТО"
+    }
+  ]
+}
